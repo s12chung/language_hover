@@ -11,3 +11,22 @@
  *= require_self
  *= require_tree .
  */
+
+
+body {
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'arno-pro', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", "Times New Roman", Times, serif;
+
+    color: #231F20;
+    background-color: #EEE;
+}
+
+p {
+    margin: 1.1em 0;
+}
+
+.main_grid {
+    width: 500px;
+    margin: 0 auto;
+}

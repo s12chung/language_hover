@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function data_behavior(behavior) {
+    return "[data-behavior~='" + behavior + "']";
+}
