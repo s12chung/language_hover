@@ -36,8 +36,9 @@ p {
 }
 
 .main_grid {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 textarea {
@@ -56,4 +57,11 @@ textarea {
     position: fixed;
     top: 40px;
     right: 100px;
+}
+
+@media (max-width: 767px) {
+    .edit {
+        top: 10px;
+        right: 10px;
+    }
 }
