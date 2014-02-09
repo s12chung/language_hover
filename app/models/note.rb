@@ -1,5 +1,5 @@
 class Note
   include Mongoid::Document
   include Mongoid::Timestamps
-  field :text
+  field :text, default: ""
 end
