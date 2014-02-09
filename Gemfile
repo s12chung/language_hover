@@ -48,3 +48,4 @@ gem 'bcrypt-ruby'
 gem 'mongoid-sadstory', github: 'y0ssa/mongoid-sadstory', ref: '8f7367081772f38c10e8b9e4beec85af8936c2ec'
 
 gem 'easy_presenter'
+gem 'newrelic_rpm'
