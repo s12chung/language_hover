@@ -23,6 +23,14 @@ body {
     background-color: #EEE;
 }
 
+a {
+    color: #9E4130;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 p {
     margin: 1.1em 0;
 }
@@ -41,4 +49,10 @@ textarea {
 [data-behavior~='text_to_speech']:hover {
     background-color: #CCC;
     cursor: pointer;
+}
+
+.edit {
+    position: fixed;
+    top: 40px;
+    right: 100px;
 }
