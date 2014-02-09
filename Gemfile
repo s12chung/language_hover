@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+ruby '2.0.0'
 
 
 # Use SCSS for stylesheets
@@ -49,3 +50,7 @@ gem 'mongoid-sadstory', github: 'y0ssa/mongoid-sadstory', ref: '8f7367081772f38c
 
 gem 'easy_presenter'
 gem 'newrelic_rpm'
+
+group :production do
+  gem 'rails_12factor'
+end
