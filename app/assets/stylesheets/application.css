@@ -37,3 +37,8 @@ textarea {
     height: 500px;
     font-size: 20px;
 }
+
+[data-behavior~='text_to_speech']:hover {
+    background-color: #CCC;
+    cursor: pointer;
+}
