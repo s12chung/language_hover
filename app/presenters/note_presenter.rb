@@ -4,7 +4,7 @@ module NotePresenter
       content_tag :p do
         paragraph.split(/\r\n/).map do |sentence|
           text, romanization = sentence.split(" == ")
-          content_tag :span, text, data: { behavior: "tipsy text_to_speech",
+          content_tag :span, text, data: { behavior: "tipsy",
                                            tipsy: romanization }
         end.join(" ").html_safe
       end
